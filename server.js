@@ -16,4 +16,4 @@ app.get('/', (req, res) => {
 app.use('/api', require('./routes/users'));
 app.use('/auth', require('./routes/auth'));
 app.use('/api', require('./routes/atm'));
-app.listen(3000, ()=> console.log("sever started!"));
+app.listen(3000, ()=> console.log("server started!"));
