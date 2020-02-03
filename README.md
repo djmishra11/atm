@@ -1,5 +1,6 @@
 # atm
 instructions to run the project \
+please create and replace mongodb database link "mongodb://localhost:27017/atm" at /models/db \
 run \
 git clone https://github.com/djmishra11/atm \
 cd atm \
